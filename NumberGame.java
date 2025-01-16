@@ -38,7 +38,6 @@ public class NumberGame{
         int count = 0;
         while(count<10){
             System.out.println("Enter your guess: ");
-            System.out.println(num);
             
             //validates int input
             if(!sc.hasNextInt()){
